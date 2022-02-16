@@ -1,17 +1,40 @@
 body{
-    background: darkgray;
+    background: rgb(206, 205, 205);
+    font-family: Verdana;
 }
-
+.photo{
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 50px;
+}
 #title, .subtitle , .post_title {
-    color: blue;
+    color: rgb(15, 15, 15);
+}
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
+    color: rgb(15, 15, 15);
 }
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 .post{
-    background: floralwhite;
-    padding: 10px;
-    border:3px solid rgb(0, 0, 0); 
-    margin: 10px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border:3px solid rgb(15, 15, 15); 
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.post_image{
+    margin-bottom: 15px;
 }
